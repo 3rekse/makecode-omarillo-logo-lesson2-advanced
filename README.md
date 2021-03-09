@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Turtle Logo - Lesson #2
+# Turtle Logo - Lesson #2 - Advanced
 
 ## Turtle Logo - Lesson #2, with variables and sprites @unplugged
 **Making the Turtle Move.**
