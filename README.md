@@ -12,15 +12,11 @@ In this lesson you will make your **Turtle Objects** move.
 ** Follow Along**
 
 Once again, all our programs begin with an ⇢``on start``⇠ block. In this lesson you are going to have 2 **Turtle Objects**. To make this happen you will need to create 2 *variables* to hold the **Turtle Objects** in. Create a variable called "myDuck" and a second called "myApple".
-```blocks
-let myDuck = null
-let myApple = null
-```
 
 ## Step 2
 ** Follow Along**
 
-Then you need to add the **Turtle Objects** using the ⇢``set myTurtle to a Turtle Object with sprite □ of kind Player``⇠ block. Move 2 of them over and assign both of your variables to be a **Turtle Object**. Set the sprites to be a duck and an apple.
+Then you need to assign **Turtle Objects** to these variables using the ⇢``set myTurtle to a Turtle Object with sprite □ of kind Player``⇠ block. Move 2 of them over and assign your variables to be a **Turtle Object**. Set the sprites to be a duck and an apple.
 ```blocks
 let myDuck = turtle.fromSprite(sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
@@ -63,7 +59,7 @@ let myApple = turtle.fromSprite(sprites.create(img`
 ## Step 3
 ** Follow Along**
 
-To move the **Turtle Objects** you will use the ⇢``myTurtle move forward 25 steps``⇠ block and place it inside the ⇢``on start``⇠ block after the previous blocks. Make the "duck" move forward and the "apple" move backwards.
+To move the **Turtle Objects** you will use the ⇢``myTurtle move forward 25 steps``⇠ block and place it inside the ⇢``on start``⇠ block after the previous blocks. You will need to change the variable name to refer to the variables you created previously. Make the "duck" move forward and the "apple" move backwards.
 ```blocks
 let myDuck = turtle.fromSprite(sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
@@ -158,7 +154,7 @@ You can now make the **Turtle Objects** move forwards and backwards.
 ## Step 6
 **Your Turn**
 
-Create 2 variables, with proper names and assign then to **Turtle Objects**, Then get each **Turtle Object** to:
+Create 2 variables, with proper names and assign then to be **Turtle Objects**. Then get each **Turtle Object** to:
 - move forwards
 - move backwards
 - then say, "I just moved!"
