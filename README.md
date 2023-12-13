@@ -15,7 +15,9 @@ Ancora una volta, tutti i nostri programmi iniziano con un ⇢``on start``⇠ bl
 
 ## Step 2
 ** Follow Along**
-Quindi devi assegnare **Oggetti Omarillo** a queste 2 variabili utilizzando il comando ⇢``set myOmarillo to a Omarillo Object with sprite □ of kind Player``⇠ block. Dobbiamo poi assegna alle tue variabili un nome e un immagine. Imposta gli sprite in modo che siano un'anatra e una mela.
+
+Quindi devi assegnare **Oggetti Omarillo** a queste 2 variabili utilizzando il comando ⇢``set myOmarillo to a Omarillo Object with sprite □ of kind Player``⇠ block. 
+Dobbiamo poi assegna alle tue variabili un nome e un immagine. Imposta gli sprite in modo che siano un'anatra e una mela.
 
 ```blocks
 let myDuck = omarillo.fromSprite(sprites.create(img`
