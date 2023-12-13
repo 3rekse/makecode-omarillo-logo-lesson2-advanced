@@ -5,7 +5,7 @@
 ## Omarillo Logo - Lesson #2, with variables and sprites @unplugged
 **Making the Turtle Move.**
 
-In questa lezione come **Turtle Objects** si movove anche l'**Omarillo si muove".
+In questa lezione come **Turtle Objects** si movove anche l'**Omarillo** si muove.
 ![move](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson2-advanced/raw/main/assets/move_screenshot.png)
 
 ## Step 1
