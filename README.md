@@ -5,20 +5,20 @@
 ## Turtle Logo - Lesson #2, with variables and sprites @unplugged
 **Making the Turtle Move.**
 
-In this lesson you will make your **Turtle Objects** move.
+In questa lezione come **Turtle Objects** si movove anche l'**Omarillo si muove".
 ![move](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson2-advanced/raw/main/assets/move_screenshot.png)
 
 ## Step 1
 ** Follow Along**
 
-Once again, all our programs begin with an ⇢``on start``⇠ block. In this lesson you are going to have 2 **Turtle Objects**. To make this happen you will need to create 2 *variables* to hold the **Turtle Objects** in. Create a variable called "myDuck" and a second called "myApple".
+Ancora una volta, tutti i nostri programmi iniziano con un ⇢``on start``⇠ block. In questa lezione avrai 2 **Oggetti Omarillo**. Per far sì che ciò accada dovrai creare 2 *variabili* per contenere gli **oggetti Omarillo**. Crea una variabile chiamata "myDuck" e una seconda chiamata "myApple".
 
 ## Step 2
 ** Follow Along**
+Quindi devi assegnare **Oggetti Omarillo** a queste 2 variabili utilizzando il comando ⇢``set myOmarillo to a Omarillo Object with sprite □ of kind Player``⇠ block. Dobbiamo poi assegna alle tue variabili un nome e un immagine. Imposta gli sprite in modo che siano un'anatra e una mela.
 
-Then you need to assign **Turtle Objects** to these variables using the ⇢``set myTurtle to a Turtle Object with sprite □ of kind Player``⇠ block. Move 2 of them over and assign your variables to be a **Turtle Object**. Set the sprites to be a duck and an apple.
 ```blocks
-let myDuck = turtle.fromSprite(sprites.create(img`
+let myDuck = omarillo.fromSprite(sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
     . . . . . . b b b b b b . . . . 
@@ -36,7 +36,7 @@ let myDuck = turtle.fromSprite(sprites.create(img`
     . . . c c c c c c c c b b . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player))
-let myApple = turtle.fromSprite(sprites.create(img`
+let myApple = omarillo.fromSprite(sprites.create(img`
     . . . . . . . e c 7 . . . . . . 
     . . . . e e e c 7 7 e e . . . . 
     . . c e e e e c 7 e 2 2 e e . . 
@@ -59,9 +59,9 @@ let myApple = turtle.fromSprite(sprites.create(img`
 ## Step 3
 ** Follow Along**
 
-To move the **Turtle Objects** you will use the ⇢``myTurtle move forward 25 steps``⇠ block and place it inside the ⇢``on start``⇠ block after the previous blocks. You will need to change the variable name to refer to the variables you created previously. Make the "duck" move forward and the "apple" move backwards.
+Per spostare gli **Oggetti Tartaruga** utilizzerai il blocco  ⇢``myOmarillo move forward 25 steps``⇠ block e posizionalo all'interno del blocco ⇢``on start``⇠ block dopo i blocchi precedenti. Dovrai modificare il nome della variabile per fare riferimento alle variabili create in precedenza. Fai muovere la "papera" in avanti e la "mela" all'indietro.
 ```blocks
-let myDuck = turtle.fromSprite(sprites.create(img`
+let myDuck = omarillo.fromSprite(sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
     . . . . . . b b b b b b . . . . 
@@ -79,7 +79,7 @@ let myDuck = turtle.fromSprite(sprites.create(img`
     . . . c c c c c c c c b b . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player))
-let myApple = turtle.fromSprite(sprites.create(img`
+let myApple = omarillo.fromSprite(sprites.create(img`
     . . . . . . . e c 7 . . . . . . 
     . . . . e e e c 7 7 e e . . . . 
     . . c e e e e c 7 e 2 2 e e . . 
@@ -97,16 +97,18 @@ let myApple = turtle.fromSprite(sprites.create(img`
     . . . 2 2 e e 4 4 4 2 e e . . . 
     . . . . . 2 2 e e e e . . . . . 
     `, SpriteKind.Player))
-myDuck.moveDirection(TurtleDirection.Forward, 25)
-myApple.moveDirection(TurtleDirection.Backward, 25)
+myDuck.moveDirection(OmarilloDirection.Forward, 25)
+myApple.moveDirection(OmarilloDirection.Backward, 25)
 ```
 
 ## Step 4
 ** Try it Out**
 
-Notice the number 25 in the block. The number can be changed to move the **Turtle Objects** a different distance. Try moving the **Turtle** some different distances.
+Come hai notato il numero 25 nel blocco. Il numero può essere modificato per spostare gli **Oggetti Omarillo** a una distanza diversa. Prova a spostare la **Omarillo** a distanze diverse.
+
+
 ```blocks
-let myDuck = turtle.fromSprite(sprites.create(img`
+let myDuck = omarillo.fromSprite(sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
     . . . . . . b b b b b b . . . . 
@@ -124,7 +126,7 @@ let myDuck = turtle.fromSprite(sprites.create(img`
     . . . c c c c c c c c b b . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player))
-let myApple = turtle.fromSprite(sprites.create(img`
+let myApple = omarillo.fromSprite(sprites.create(img`
     . . . . . . . e c 7 . . . . . . 
     . . . . e e e c 7 7 e e . . . . 
     . . c e e e e c 7 e 2 2 e e . . 
@@ -142,30 +144,29 @@ let myApple = turtle.fromSprite(sprites.create(img`
     . . . 2 2 e e 4 4 4 2 e e . . . 
     . . . . . 2 2 e e e e . . . . . 
     `, SpriteKind.Player))
-myDuck.moveDirection(TurtleDirection.Forward, 50)
-myApple.moveDirection(TurtleDirection.Backward, 75)
+myDuck.moveDirection(OmarilloDirection.Forward, 50)
+myApple.moveDirection(OmarilloDirection.Backward, 75)
 ```
 
 ## Step 5
 **Success!**
 
-You can now make the **Turtle Objects** move forwards and backwards.
+Ora puoi far muovere gli **Oggetti Omarillo** avanti e indietro.
 
 ## Step 6
-**Your Turn**
+**Your Tur tocca a te!**
 
-Create 2 variables, with proper names and assign then to be **Turtle Objects**. Then get each **Turtle Object** to:
-- move forwards
-- move backwards
-- then say, "I just moved!"
-
+Crea 2 variabili, con dei nomi differenti e assegnale quindi come **Oggetti Omarillo**. Quindi muovili:
+- in avanti
+- in indietro
+- poi dì che dicano : "Mi sono appena trasferito!"
 ## Step 7
 **Done**
 
 You have successfully completed your second lesson in Turtle Logo.
 
 ```ghost
-let myTurtle = turtle.fromSprite(sprites.create(img``, SpriteKind.Player))
-myTurtle.moveDirection(TurtleDirection.Forward, 25)
-myTurtle.say("Hello, World!")
+let myOmarillo = omarillo.fromSprite(sprites.create(img``, SpriteKind.Player))
+myOmarillo.moveDirection(OmarilloDirection.Forward, 25)
+myOmarillo.say("Ciao, Benvenuti!")
 ```
