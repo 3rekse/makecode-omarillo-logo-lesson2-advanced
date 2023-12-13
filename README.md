@@ -1,8 +1,8 @@
 ### @explicitHints true
 
-# Turtle Logo - Lesson #2 - Advanced
+# Omarillo Logo - Lesson #2 - Advanced
 
-## Turtle Logo - Lesson #2, with variables and sprites @unplugged
+## Omarillo Logo - Lesson #2, with variables and sprites @unplugged
 **Making the Turtle Move.**
 
 In questa lezione come **Turtle Objects** si movove anche l'**Omarillo si muove".
