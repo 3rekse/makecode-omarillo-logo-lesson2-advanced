@@ -3,7 +3,7 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "Turtle Logo": "github:3rekse/omarillo"
+        "Olarillo Logo": "github:3rekse/omarillo"
     },
     "files": [
         "main.blocks",
@@ -19,5 +19,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
